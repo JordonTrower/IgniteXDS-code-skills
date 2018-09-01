@@ -13,7 +13,7 @@
 }
 
 #ignite-logo {
-	padding-left: 48px;
+	padding-left: 5%;
 }
 
 .header-links a {
@@ -42,7 +42,7 @@
 /* CSS rules for the second block  */
 
 #second-body {
-	height: 512px;
+	min-height: 512px;
 	align-items: center;
 }
 
@@ -83,6 +83,8 @@
 	text-align: start;
 }
 
+/* Shrink the width of the button list buttons to all
+be 25% so it will look better on smaller screens  */
 @media (max-width: 900px) {
 	.button-list .button-list-member {
 		width: 25%;
@@ -131,6 +133,12 @@
 	line-height: 57px;
 	height: 57px;
 	width: 330px;
+}
+
+@media (max-width: 670px) {
+	.second-explain-tag {
+		margin-bottom: 45px;
+	}
 }
 
 /* CSS rules for third section  */
@@ -187,6 +195,14 @@
 	min-height: 500px;
 }
 
+/* Drop text down so gray text in 
+third body (brain info) isnt covering it */
+@media (max-width: 740px) {
+	#fourth-body .text-body {
+		padding-top: 75px;
+	}
+}
+
 /* Common CSS */
 
 .text-body {
@@ -228,6 +244,16 @@ footer {
 	width: 100px;
 }
 
+@media (max-width: 700px) {
+	.down-arrow {
+		position: relative;
+		left: 44vw;
+		top: -37.5px;
+		height: 75;
+		width: 100px;
+	}
+}
+
 .center-text {
 	display: flex;
 	justify-content: center;
@@ -243,4 +269,10 @@ footer {
 
 	border-top: #4a4a4a 4px solid;
 	border-bottom: #4a4a4a 4px solid;
+}
+
+@media (max-width: 500px) {
+	.emphasize-text {
+		border: none;
+	}
 }
