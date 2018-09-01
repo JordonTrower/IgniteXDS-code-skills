@@ -1,6 +1,6 @@
 /* CSS rules for the first block  */
 
-.top {
+#first-body {
 	height: 77vh;
 }
 
@@ -35,7 +35,7 @@
 
 /* CSS rules for the second block  */
 
-.second {
+#second-body {
 	height: 512px;
 	align-items: center;
 }
@@ -113,16 +113,8 @@
 }
 
 /* CSS rules for third section  */
-#third {
+#third-body {
 	height: 790px;
-}
-
-.down-arrow {
-	position: relative;
-	left: 48vw;
-	top: -37.5px;
-	height: 75;
-	width: 100px;
 }
 
 #third-primary {
@@ -168,11 +160,18 @@
 	padding-bottom: 100px;
 }
 
+/* CSS rules for fourth section  */
+
+#fourth-body {
+	height: 500px;
+}
+
 /* Common CSS */
 
 .text-body {
 	text-align: center;
 	font-weight: 700;
+	padding-bottom: 30px;
 }
 
 .body {
@@ -197,4 +196,29 @@ footer {
 	background: black;
 	height: 75px;
 	width: 100vw;
+}
+
+.down-arrow {
+	position: relative;
+	left: 48vw;
+	top: -37.5px;
+	height: 75;
+	width: 100px;
+}
+
+.center-text {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+.emphasize-text {
+	color: inherit;
+
+	font-size: 72px;
+	font-style: italic;
+
+	border-top: #4a4a4a 4px solid;
+	border-bottom: #4a4a4a 4px solid;
 }
