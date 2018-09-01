@@ -1,5 +1,4 @@
 /* CSS rules for the first block  */
-
 #first-body {
 	height: 77vh;
 }
@@ -25,6 +24,13 @@
 	font-weight: 500;
 	text-decoration: none;
 	color: inherit;
+}
+
+@media (max-width: 520px) {
+	.header-links a {
+		padding: 0;
+		padding-right: 5px;
+	}
 }
 
 .quote {
@@ -77,6 +83,21 @@
 	text-align: start;
 }
 
+@media (max-width: 900px) {
+	.button-list .button-list-member {
+		width: 25%;
+	}
+
+	.button-list .button-list-member:first-child {
+		width: 25%;
+		text-align: center;
+	}
+
+	.button-list .button-list-member:last-child {
+		width: 25%;
+		text-align: center;
+	}
+}
 .button-list .active {
 	background: #616161;
 }
@@ -114,7 +135,7 @@
 
 /* CSS rules for third section  */
 #third-body {
-	height: 790px;
+	min-height: 790px;
 }
 
 #third-primary {
@@ -131,7 +152,7 @@
 #brains {
 	position: relative;
 	top: 55px;
-
+	flex-wrap: wrap;
 	width: 100vw;
 	display: flex;
 	justify-content: space-around;
@@ -163,7 +184,7 @@
 /* CSS rules for fourth section  */
 
 #fourth-body {
-	height: 500px;
+	min-height: 500px;
 }
 
 /* Common CSS */
@@ -179,6 +200,7 @@
 	display: flex;
 	flex-direction: column;
 	font-size: 48px;
+	width: 100vw;
 }
 
 .gray {
