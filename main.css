@@ -1,0 +1,157 @@
+/* CSS rules for the first block  */
+
+.top {
+	height: 77vh;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding-top: 16px;
+	margin-bottom: 9%;
+}
+
+#ignite-logo {
+	padding-left: 48px;
+}
+
+.header-links a {
+	padding: 16px;
+	padding-right: 4vw;
+
+	font-size: 32px;
+	font-weight: 500;
+	text-decoration: none;
+	color: inherit;
+}
+
+.quote {
+	font-style: italic;
+	text-shadow: 2px 2px black;
+	font-size: 64px;
+}
+
+/* CSS rules for the second block  */
+
+.second {
+	height: 512px;
+	align-items: center;
+}
+
+.button-list {
+	color: white;
+	font-size: 32px;
+	font-weight: 500;
+	display: flex;
+	justify-content: space-between;
+	width: 100vw;
+}
+
+.button-list .button-list-member {
+	background: inherit;
+	color: inherit;
+
+	font-size: 24px;
+	font-weight: 600;
+
+	margin-top: 8px;
+	margin-right: 4px;
+
+	border: none;
+	background: #9b9b9b;
+
+	height: 80px;
+	width: 20%;
+}
+
+.button-list .button-list-member:first-child {
+	width: 30%;
+	text-align: end;
+}
+
+.button-list .button-list-member:last-child {
+	width: 30%;
+	margin-right: 0;
+	text-align: start;
+}
+
+.button-list .active {
+	background: #616161;
+}
+
+#second-text {
+	padding-top: 128px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.second-header-primary {
+	font-size: 64px;
+	font-weight: 700;
+	padding-bottom: 16px;
+}
+
+.second-header-secondary {
+	font-size: 40px;
+	font-weight: 700;
+	color: #23253c;
+	font-style: italic;
+	padding-bottom: 32px;
+}
+
+.second-explain-tag {
+	background: #9b9b9b;
+	color: white;
+	font-size: 32px;
+	text-align: center;
+	line-height: 57px;
+	height: 57px;
+	width: 330px;
+}
+
+/* CSS rules for third section  */
+#third {
+	height: 790px;
+}
+
+.down-arrow {
+	position: relative;
+	left: 48vw;
+	top: -37.5px;
+	height: 75;
+	width: 100px;
+}
+
+/* Common CSS */
+
+.text-body {
+	text-align: center;
+	font-weight: 700;
+}
+
+.body {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	font-size: 48px;
+}
+
+.gray {
+	background: #4a4a4a;
+	color: white;
+}
+
+.white {
+	color: #4a4a4a;
+	background: white;
+}
+
+footer {
+	color: white;
+	background: black;
+	height: 75px;
+	width: 100vw;
+}
