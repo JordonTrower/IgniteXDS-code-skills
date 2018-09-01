@@ -125,6 +125,49 @@
 	width: 100px;
 }
 
+#third-primary {
+	font-weight: 700;
+	padding-bottom: 32px;
+}
+
+#third-info {
+	font-style: italic;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+#brains {
+	position: relative;
+	top: 55px;
+
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+
+	font-size: 40px;
+	text-align: center;
+}
+
+#brains > div {
+	width: 400px;
+	height: 600px;
+	box-shadow: #23253c 4px 4px 6px;
+}
+
+#brains > div > h2 {
+	padding-top: 30px;
+}
+
+#brains > div > .brain-image {
+	padding-top: 40px;
+}
+
+#brains > div > p {
+	font-size: 24px;
+	padding-top: 15px;
+	padding-bottom: 100px;
+}
+
 /* Common CSS */
 
 .text-body {
